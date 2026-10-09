@@ -1,0 +1,31 @@
+{
+  "name": "career-portal-email-ats",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone career portal with an email-based application backend.",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/application-validation.test.ts"
+  },
+  "dependencies": {
+    "next": "15.5.0",
+    "nodemailer": "7.0.12",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/nodemailer": "^6.4.17",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.2",
+    "tsx": "^4.19.2",
+    "tailwindcss": "^3.4.13",
+    "postcss": "^8.4.35",
+    "autoprefixer": "^10.4.17",
+    "@tailwindcss/typography": "^0.5.16"
+  }
+}
